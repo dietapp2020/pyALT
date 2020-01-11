@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="kind" attr.type="string" for="edge" id="d2"/>
+<key attr.name="activation_time" attr.type="double" for="node" id="d1"/>
+<key attr.name="level" attr.type="long" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="PTLp">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="AUDd">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="AUDp">
+  <data key="d0">1</data>
+  <data key="d1">1874.3332149999999</data>
+</node>
+<node id="AUDv">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="SSp-tr">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="VISal">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="SSp-ll">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="SSp-bfd">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="SSs">
+  <data key="d0">1</data>
+  <data key="d1">1550.2016</data>
+</node>
+<node id="SSp-ul">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="VISC">
+  <data key="d0">1</data>
+  <data key="d1">1550.2016</data>
+</node>
+<edge source="PTLp" target="AUDd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="AUDp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="AUDv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="SSp-tr">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="VISal">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDd" target="AUDp">
+  <data key="d2">adag</data>
+</edge>
+<edge source="AUDd" target="AUDv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDd" target="PTLp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDd" target="SSp-bfd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDd" target="SSp-tr">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDd" target="VISal">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDp" target="AUDv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDp" target="PTLp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDv" target="AUDd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDv" target="AUDp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDv" target="SSp-bfd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDv" target="SSp-ll">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDv" target="SSp-ul">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDv" target="SSs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AUDv" target="VISC">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="AUDd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="AUDp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="AUDv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="PTLp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="SSp-bfd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="SSp-ll">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="VISal">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISal" target="PTLp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ll" target="AUDd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ll" target="AUDp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ll" target="AUDv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ll" target="PTLp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ll" target="SSp-tr">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-bfd" target="AUDd">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-bfd" target="AUDv">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-bfd" target="PTLp">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-bfd" target="SSp-ll">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-bfd" target="SSp-tr">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-bfd" target="SSp-ul">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-bfd" target="SSs">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-bfd" target="VISal">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSs" target="AUDv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="SSp-bfd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="SSp-ll">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="SSp-ul">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="VISC">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-ul" target="AUDv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ul" target="SSp-bfd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ul" target="SSp-ll">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ul" target="SSs">
+  <data key="d2">structral</data>
+</edge>
+</graph></graphml>

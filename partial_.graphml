@@ -1,0 +1,6 @@
+graph [
+  directed 1
+  node [
+    id 0
+    label "CLA"
+    majorRegion "Cortical Subplate"

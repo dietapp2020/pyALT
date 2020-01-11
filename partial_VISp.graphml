@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="kind" attr.type="string" for="edge" id="d2"/>
+<key attr.name="activation_time" attr.type="double" for="node" id="d1"/>
+<key attr.name="level" attr.type="long" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="PTLp">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="POST">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="RSPagl">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="RSPd">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="RSPv">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="VISal">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="VISam">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="VISl">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="VISp">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="VISpl">
+  <data key="d0">1</data>
+  <data key="d1">1245.993579</data>
+</node>
+<node id="PRE">
+  <data key="d0">1</data>
+  <data key="d1">1169.9358960000002</data>
+</node>
+<edge source="PTLp" target="POST">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="RSPagl">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="RSPd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="RSPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="VISal">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="VISam">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="VISl">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PTLp" target="VISp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="POST" target="PRE">
+  <data key="d2">adag</data>
+</edge>
+<edge source="POST" target="RSPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="RSPagl" target="RSPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="RSPd" target="RSPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="RSPv" target="POST">
+  <data key="d2">structral</data>
+</edge>
+<edge source="RSPv" target="PRE">
+  <data key="d2">structral</data>
+</edge>
+<edge source="RSPv" target="PTLp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="RSPv" target="RSPagl">
+  <data key="d2">structral</data>
+</edge>
+<edge source="RSPv" target="RSPd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="RSPv" target="VISal">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISal" target="PTLp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISal" target="VISam">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISal" target="VISl">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISal" target="VISp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISam" target="POST">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISam" target="PTLp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISam" target="RSPagl">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISam" target="RSPd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISam" target="RSPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISam" target="VISal">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISam" target="VISl">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISam" target="VISp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISam" target="VISpl">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISl" target="POST">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISl" target="PTLp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISl" target="RSPagl">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISl" target="RSPd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISl" target="RSPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISl" target="VISal">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISl" target="VISam">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISl" target="VISp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISl" target="VISpl">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISp" target="POST">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISp" target="PTLp">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISp" target="RSPagl">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISp" target="RSPd">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISp" target="RSPv">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISp" target="VISal">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISp" target="VISam">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISp" target="VISl">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISpl" target="POST">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISpl" target="RSPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="VISpl" target="VISal">
+  <data key="d2">structral</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="kind" attr.type="string" for="edge" id="d2"/>
+<key attr.name="activation_time" attr.type="double" for="node" id="d1"/>
+<key attr.name="level" attr.type="long" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="ORBl">
+  <data key="d0">2</data>
+  <data key="d1">1603.7965513</data>
+</node>
+<node id="AId">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="AIv">
+  <data key="d0">1</data>
+  <data key="d1">615.4266812999999</data>
+</node>
+<node id="CLA">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="SSp-n">
+  <data key="d0">2</data>
+  <data key="d1">1889.4459123</data>
+</node>
+<node id="GU">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="SSp-m">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="SSs">
+  <data key="d0">2</data>
+  <data key="d1">2414.2109933</data>
+</node>
+<node id="VISC">
+  <data key="d0">2</data>
+  <data key="d1">2414.2109933</data>
+</node>
+<node id="EPd">
+  <data key="d0">1</data>
+  <data key="d1">615.4266812999999</data>
+</node>
+<node id="LA">
+  <data key="d0">1</data>
+  <data key="d1">615.4266812999999</data>
+</node>
+<edge source="ORBl" target="AId">
+  <data key="d2">structral</data>
+</edge>
+<edge source="ORBl" target="AIv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="ORBl" target="CLA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AId" target="CLA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AId" target="GU">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AId" target="VISC">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AIv" target="EPd">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AIv" target="ORBl">
+  <data key="d2">adag</data>
+</edge>
+<edge source="CLA" target="AId">
+  <data key="d2">structral</data>
+</edge>
+<edge source="CLA" target="AIv">
+  <data key="d2">adag</data>
+</edge>
+<edge source="CLA" target="EPd">
+  <data key="d2">adag</data>
+</edge>
+<edge source="CLA" target="GU">
+  <data key="d2">structral</data>
+</edge>
+<edge source="CLA" target="LA">
+  <data key="d2">adag</data>
+</edge>
+<edge source="CLA" target="SSp-n">
+  <data key="d2">adag</data>
+</edge>
+<edge source="CLA" target="SSs">
+  <data key="d2">adag</data>
+</edge>
+<edge source="CLA" target="VISC">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-n" target="GU">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-n" target="SSp-m">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-n" target="SSs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-n" target="VISC">
+  <data key="d2">structral</data>
+</edge>
+<edge source="GU" target="AId">
+  <data key="d2">adag</data>
+</edge>
+<edge source="GU" target="CLA">
+  <data key="d2">adag</data>
+</edge>
+<edge source="GU" target="SSp-m">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-m" target="SSp-n">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-m" target="SSs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-m" target="VISC">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="CLA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="GU">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="SSp-m">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="SSp-n">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="VISC">
+  <data key="d2">adag</data>
+</edge>
+<edge source="VISC" target="GU">
+  <data key="d2">structral</data>
+</edge>
+</graph></graphml>

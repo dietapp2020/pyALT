@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="kind" attr.type="string" for="edge" id="d2"/>
+<key attr.name="activation_time" attr.type="double" for="node" id="d1"/>
+<key attr.name="level" attr.type="long" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="SSp-ll">
+  <data key="d0">1</data>
+  <data key="d1">1343.735465</data>
+</node>
+<node id="MOs">
+  <data key="d0">1</data>
+  <data key="d1">1343.735465</data>
+</node>
+<node id="SSp-tr">
+  <data key="d0">2</data>
+  <data key="d1">2449.1200129999997</data>
+</node>
+<node id="MOp">
+  <data key="d0">1</data>
+  <data key="d1">1343.735465</data>
+</node>
+<node id="FRP">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="SSp-m">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="SSp-n">
+  <data key="d0">1</data>
+  <data key="d1">736.5459931</data>
+</node>
+<node id="SSp-ul">
+  <data key="d0">1</data>
+  <data key="d1">1343.735465</data>
+</node>
+<node id="SSs">
+  <data key="d0">2</data>
+  <data key="d1">2201.1278451</data>
+</node>
+<node id="VISC">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="AIp">
+  <data key="d0">2</data>
+  <data key="d1">2201.1278451</data>
+</node>
+<edge source="SSp-ll" target="MOs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ll" target="SSp-tr">
+  <data key="d2">adag</data>
+</edge>
+<edge source="MOs" target="FRP">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOs" target="MOp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOs" target="SSp-ll">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOs" target="SSp-tr">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="MOp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="MOs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-tr" target="SSp-ll">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOp" target="FRP">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOp" target="MOs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOp" target="SSp-ll">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOp" target="SSp-m">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOp" target="SSp-n">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOp" target="SSp-ul">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOp" target="SSs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOp" target="VISC">
+  <data key="d2">structral</data>
+</edge>
+<edge source="FRP" target="MOp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="FRP" target="MOs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-m" target="FRP">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-m" target="MOp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-m" target="MOs">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-m" target="SSp-n">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-m" target="SSp-ul">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-m" target="SSs">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-m" target="VISC">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-n" target="SSp-m">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-n" target="SSs">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-n" target="VISC">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ul" target="MOp">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-ul" target="MOs">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-ul" target="SSp-ll">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSp-ul" target="SSp-m">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSp-ul" target="SSs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="AIp">
+  <data key="d2">adag</data>
+</edge>
+<edge source="SSs" target="FRP">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="MOp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="MOs">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="SSp-ll">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="SSp-m">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="SSp-n">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="SSp-ul">
+  <data key="d2">structral</data>
+</edge>
+<edge source="SSs" target="VISC">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AIp" target="FRP">
+  <data key="d2">structral</data>
+</edge>
+</graph></graphml>

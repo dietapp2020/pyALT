@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="kind" attr.type="string" for="edge" id="d2"/>
+<key attr.name="activation_time" attr.type="double" for="node" id="d1"/>
+<key attr.name="level" attr.type="long" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="COAa">
+  <data key="d0">2</data>
+  <data key="d1">8277.657917</data>
+</node>
+<node id="BMA">
+  <data key="d0">2</data>
+  <data key="d1">8277.657917</data>
+</node>
+<node id="COAp">
+  <data key="d0">2</data>
+  <data key="d1">8277.657917</data>
+</node>
+<node id="EPv">
+  <data key="d0">2</data>
+  <data key="d1">8277.657917</data>
+</node>
+<node id="LA">
+  <data key="d0">3</data>
+  <data key="d1">8776.4063506</data>
+</node>
+<node id="NLOT">
+  <data key="d0">1</data>
+  <data key="d1">1501.87383</data>
+</node>
+<node id="PAA">
+  <data key="d0">2</data>
+  <data key="d1">8277.657917</data>
+</node>
+<node id="TR">
+  <data key="d0">2</data>
+  <data key="d1">8277.657917</data>
+</node>
+<node id="AOB">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<node id="PA">
+  <data key="d0">3</data>
+  <data key="d1">8776.4063506</data>
+</node>
+<node id="MOB">
+  <data key="d0">0</data>
+  <data key="d1">0.0</data>
+</node>
+<edge source="COAa" target="BMA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="COAa" target="COAp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="COAa" target="EPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="COAa" target="LA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="COAa" target="NLOT">
+  <data key="d2">structral</data>
+</edge>
+<edge source="COAa" target="PAA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="COAa" target="TR">
+  <data key="d2">structral</data>
+</edge>
+<edge source="BMA" target="LA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="BMA" target="PA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="BMA" target="TR">
+  <data key="d2">structral</data>
+</edge>
+<edge source="COAp" target="AOB">
+  <data key="d2">structral</data>
+</edge>
+<edge source="COAp" target="BMA">
+  <data key="d2">adag</data>
+</edge>
+<edge source="COAp" target="COAa">
+  <data key="d2">adag</data>
+</edge>
+<edge source="COAp" target="EPv">
+  <data key="d2">adag</data>
+</edge>
+<edge source="COAp" target="NLOT">
+  <data key="d2">structral</data>
+</edge>
+<edge source="COAp" target="PA">
+  <data key="d2">adag</data>
+</edge>
+<edge source="COAp" target="PAA">
+  <data key="d2">adag</data>
+</edge>
+<edge source="COAp" target="TR">
+  <data key="d2">adag</data>
+</edge>
+<edge source="EPv" target="BMA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="EPv" target="COAa">
+  <data key="d2">structral</data>
+</edge>
+<edge source="EPv" target="COAp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="EPv" target="PAA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="EPv" target="TR">
+  <data key="d2">structral</data>
+</edge>
+<edge source="LA" target="BMA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="LA" target="COAp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="LA" target="PAA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="LA" target="TR">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PAA" target="BMA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PAA" target="COAa">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PAA" target="COAp">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PAA" target="EPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PAA" target="LA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PAA" target="NLOT">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PAA" target="PA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="TR" target="BMA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="TR" target="COAa">
+  <data key="d2">structral</data>
+</edge>
+<edge source="TR" target="EPv">
+  <data key="d2">structral</data>
+</edge>
+<edge source="TR" target="NLOT">
+  <data key="d2">structral</data>
+</edge>
+<edge source="TR" target="PA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="TR" target="PAA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="AOB" target="COAp">
+  <data key="d2">adag</data>
+</edge>
+<edge source="AOB" target="NLOT">
+  <data key="d2">adag</data>
+</edge>
+<edge source="PA" target="AOB">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PA" target="BMA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PA" target="COAa">
+  <data key="d2">structral</data>
+</edge>
+<edge source="PA" target="LA">
+  <data key="d2">adag</data>
+</edge>
+<edge source="PA" target="PAA">
+  <data key="d2">structral</data>
+</edge>
+<edge source="MOB" target="AOB">
+  <data key="d2">adag</data>
+</edge>
+</graph></graphml>
